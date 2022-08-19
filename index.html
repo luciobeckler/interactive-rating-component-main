@@ -24,70 +24,57 @@
 </head>
 
 <body>
+      <div class="mainbox">
+            <header>
+                  <img class="starIcon" src="images/icon-star.svg" alt="">
+            </header>
 
-      <!-- Rating state start -->
-      <div class="card_front">
-            <div class="conteudo">
-                  <a class="star_icon">
-                        <img src="images/icon-star.svg" alt="">
-                  </a>
+            <main>
+                  <div class="maintittle">
+                        <h1>How did we do?</h1>
+                  </div>
 
-                  <h1 class="title">How did we do?</h1>
-                  <p class="text">
-                        Please let us know how we did with your support request. All feedback is appreciated
-                        to help us improve our offering!
-                  </p>
+                  <div class="maintext">
+                        <p>Please let us know how we did with your support request. All feedback is appreciated to help
+                              us improve our offering!</p>
+                  </div>
+            </main>
 
-                  <form class="buttons">
-                        <!-- TROCAR A COR AO SELECIONAR -->
-                        <button href="#" class="btn">1</button>
-                        <button href="#" class="btn">2</button>
-                        <button href="#" class="btn">3</button>
-                        <button href="#" class="btn">4</button>
-                        <button href="#" class="btn">5</button>
-                  </form>
+            <div class="selectbuttons">
+                  <div class="circle">
+                        <input id="one" name="number-rating" type="radio" value="1" />
+                        <label for="one">1</label>
+                  </div>
 
-                  <div class="submit">
-                        <button>SUBMIT</button>
+
+
+                  <div class="circle">
+                        <input id="two" name="number-rating" type="radio" value="2" />
+                        <label for="two">2</label>
+                  </div>
+
+                  <div class="circle">
+                        <input id="three" name="number-rating" type="radio" value="3" />
+                        <label for="three">3</label>
+                  </div>
+
+                  <div class="circle">
+                        <input id="four" name="number-rating" type="radio" value="4" />
+                        <label for="four">4</label>
+                  </div>
+
+                  <div class="circle">
+                        <input id="five" name="number-rating" type="radio" value="5" />
+                        <label for="five">5</label>
                   </div>
             </div>
+
+            <div class="submitButton">
+                  <button id="submit" type="submit"></button>
+                  <label for="two">SUBMIT</label>
+            </div>
       </div>
 
-      <div class="card_back">
-            <div class="img_cel">
-                  <img src="images/illustration-thank-you.svg" alt="">
-            </div>
-
-            <div class="rating">
-                  <div> You selected<p id="score"></p> out of 5</div>
-            </div>
-            <h1>Thank you!</h1>
-
-            <p class="text">
-                  We appreciate you taking the time to give a rating. If you ever need more support,
-                  don’t hesitate to get in touch!
-            </p>
-
-      </div>
-
-      <!-- Rating state end -->
-
-      <!-- Thank you state start -->
-
-
-
-      <!-- Thank you! -->
-
-      <!-- We appreciate you taking the time to give a rating. If you ever need more support,
-            don’t hesitate to get in touch! -->
-
-      <!-- Thank you state end -->
-
-
-      <!-- <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
-      </div> -->
 </body>
 
 </html>
