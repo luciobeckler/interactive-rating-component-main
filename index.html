@@ -9,7 +9,7 @@
       <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
       <title>Frontend Mentor | Interactive rating component</title>
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="src/style.css">
       <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
       <style>
             .attribution {
@@ -24,57 +24,53 @@
 </head>
 
 <body>
-      <div class="mainbox">
-            <header>
-                  <img class="starIcon" src="images/icon-star.svg" alt="">
-            </header>
+      <div class="mainBox">
+            <img class="starImg" src="images/icon-star.svg" alt="Star Icon">
+            <h1 class="mainTittle">How did we do?</h1>
+            <p class="mainText">Please let us know how we did with your support request. All feedback is
+                  appreciated to
+                  help us to improve our offering!</p>
+            <div class="rattingCircles">
 
-            <main>
-                  <div class="maintittle">
-                        <h1>How did we do?</h1>
-                  </div>
-
-                  <div class="maintext">
-                        <p>Please let us know how we did with your support request. All feedback is appreciated to help
-                              us improve our offering!</p>
-                  </div>
-            </main>
-
-            <div class="selectbuttons">
                   <div class="circle">
-                        <input id="one" name="number-rating" type="radio" value="1" />
+                        <input type="radio" id="one" value="1">
                         <label for="one">1</label>
                   </div>
 
-
-
                   <div class="circle">
-                        <input id="two" name="number-rating" type="radio" value="2" />
+                        <input type="radio" id="two" value="2">
                         <label for="two">2</label>
                   </div>
 
                   <div class="circle">
-                        <input id="three" name="number-rating" type="radio" value="3" />
-                        <label for="three">3</label>
+                        <input type="radio" id="tree" value="3">
+                        <label for="tree">3</label>
                   </div>
 
                   <div class="circle">
-                        <input id="four" name="number-rating" type="radio" value="4" />
+                        <input type="radio" id="four" value="4">
                         <label for="four">4</label>
                   </div>
 
                   <div class="circle">
-                        <input id="five" name="number-rating" type="radio" value="5" />
+                        <input type="radio" id="five" value="5">
                         <label for="five">5</label>
                   </div>
             </div>
-
-            <div class="submitButton">
-                  <button id="submit" type="submit"></button>
-                  <label for="two">SUBMIT</label>
-            </div>
+            <button class="submit" type="submit">SUBMIT</button>
       </div>
 
+      <div class="thanksCard">
+            <img src="images/illustration-thank-you.svg" alt="Thanks Image" class="thanksImg">
+            <div>
+                  <p class="selected">You selected <span class="number">1</span> out of 5</p>
+            </div>
+            <h1 class="thanksTittle">Thank you!</h1>
+            <p class="thanksText">We appreciated you taking the time to give a rating. If you ever need more
+                  support,
+                  don't hesitate to get in touch!</p>
+      </div>
+      <script src="src/main.js"></script>
 </body>
 
 </html>

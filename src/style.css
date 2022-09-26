@@ -1,0 +1,141 @@
+html{
+      
+      background-color:hsl(216, 12%, 8%);
+      width: 100%;
+      height: 100%;
+      display: flex;
+}
+
+body{
+      width: 100%;
+      height: 100%;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-family: 'Overpass', sans-serif;
+}
+
+.mainBox{
+      background-color: hsl(213, 19%, 18%);
+      width: 25%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 1.5rem;
+}
+
+.starImg{
+      width: 5%;
+      height: 5%;
+      background-color: hsl(213, 19%, 25%);
+      padding: 15px;
+      border-radius: 50%;
+      margin: 25px;
+}
+
+.mainTittle{
+      margin: 0px 0px 0px  25px;
+      color: white;
+}
+
+.mainText{
+      margin: 25px;
+      color: hsl(217, 12%, 63%);
+}
+
+.rattingCircles{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 15%;
+      width: 100%;
+      align-items: center;
+}
+
+.circle{
+      background-color:  hsl(213, 30%, 25%);
+      padding: 17px;
+      border-radius: 2rem;
+      color: hsl(217, 12%, 63%);
+      cursor: pointer;
+}
+
+.circle:hover {                     /*Classe para quando o mouse estiver por cima do circle  */
+      background-color: hsl(216, 12%, 54%);
+      color: #fff;
+    }
+
+.circle:active {                     /*Classe para quando o usuário clicar no circle  */
+      background-color: hsl(25, 97%, 53%);
+    }
+
+input[type='radio'] {
+      display: none;
+    }
+/* JS CLASS */
+/* .selected {
+      background-color: hsl(217, 12%, 63%);
+      color: #fff;
+    } */
+
+
+.submit{
+      background-color:hsl(25, 97%, 53%);
+      border: none;
+      border-radius: 2rem;
+      width: 75%;
+      margin-top: 15px;
+      align-self: center;
+      padding: 15px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+}
+
+.submit:hover{
+      background-color: white;
+      color: hsl(25, 97%, 53%);
+}
+
+
+
+.thanksCard{
+      background-color: hsl(213, 19%, 18%);
+      width: 25%;
+      height: 50%;
+      display: none;
+      flex-direction: column;
+      border-radius: 1.5rem;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.thanksImg{
+      padding-top: 25px;
+      width: 40%;
+      align-self: center;
+}
+
+.selected{
+      color: hsl(25, 97%, 53%);
+      padding: 10px;
+      margin: 0px;
+      background-color: hsl(213, 19%, 25%);
+      width: 100%;
+      border-radius: 25px;
+      text-align: center;
+}
+
+.thanksTittle{
+      color: white;
+      margin: 0px;
+}
+
+.thanksText{
+      margin: 0px;
+      color: hsl(216, 12%, 54%);
+      padding: 0px 25px 10px 25px;
+      text-align: center;
+      width: 87%;
+}
