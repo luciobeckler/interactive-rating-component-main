@@ -98,8 +98,6 @@ input[type='radio'] {
       color: hsl(25, 97%, 53%);
 }
 
-
-
 .thanksBox{
       background-color: hsl(213, 19%, 18%);
       width: 25%;
@@ -138,4 +136,15 @@ input[type='radio'] {
       padding: 0px 25px 10px 25px;
       text-align: center;
       width: 87%;
+}
+
+@media (max-width:375px){
+      .mainBox{
+            width: 90%;
+            height: 50%;
+      }
+      .thanksBox{
+            width: 90%;
+            height: 50%;
+      }
 }
