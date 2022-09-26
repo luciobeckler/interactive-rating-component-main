@@ -73,11 +73,11 @@ body{
 input[type='radio'] {
       display: none;
     }
-/* JS CLASS */
-/* .selected {
+
+.selectedCircle {
       background-color: hsl(217, 12%, 63%);
       color: #fff;
-    } */
+    } 
 
 
 .submit{
@@ -100,7 +100,7 @@ input[type='radio'] {
 
 
 
-.thanksCard{
+.thanksBox{
       background-color: hsl(213, 19%, 18%);
       width: 25%;
       height: 50%;
